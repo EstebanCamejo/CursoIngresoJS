@@ -1,6 +1,5 @@
 /*
-Al presionar el  botón, 
-se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
+Esteban Camejo Ejercicio 1	"*/
 function mostrar()
 {
 	alert("tomar cafe hace bien ");
