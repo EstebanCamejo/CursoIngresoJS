@@ -5,18 +5,23 @@ mostrar el resulto por medio de "ALERT"*/
 /*Esteban Camejo Ejercicio N6 JS EntradaSalida*/
 function sumar()
 {
-let N1;
-let N2;
+let numero1;
+let numero2;
 let resultado;
+let mensaje;
 
-N1 = document.getElementById("txtIdNumeroUno").value;
-N2 = document.getElementById("txtIdNumeroDos").value;
 
-N1 = parseInt(N1);
-N2 = parseInt(N2);
+//extraigo la informacion en formato numero con el parsein//
+numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-resultado = N1 + N2; 
+resultado = numero1 + numero2; 
 
-	alert("La suma es "+ resultado);
+mensaje = "La suma es "+ resultado;
+
+	//alert("La suma es "+ resultado);//
+	
+	alert(mensaje);
+
 }
 

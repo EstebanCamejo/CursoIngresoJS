@@ -8,6 +8,7 @@ function mostrar()
 // asigno un nombre a las variables para luego darles un valorde funcion
 	let nombre;
 	let edad;
+	let mensajemostrar;
 
 /* le doy el valor a c/u de las variables yendo a buscar la info que nos brinda el usuario 
 trayendo los valores del html*/
@@ -19,6 +20,15 @@ trayendo los valores del html*/
 literal + la variable asignada en cada caso redacto el msj*/
 
 
-	alert("Usted se llama " +nombre+ "y tiene " +edad+ " años");
+	//alert("Usted se llama " +nombre+ "y tiene " +edad+ " años");// 
+	
+	/*Esto tmb esta OK pero tenemos que limitar los espacios dentro del "alert"
+	entonces agregue la 3er variable "mensajemostrar"*/
+
+	mensajemostrar = "Usted se llama " +nombre+ " y tiene " +edad+ " años";
+
+alert(mensajemostrar);
+
+
 }
 
