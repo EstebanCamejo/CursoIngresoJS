@@ -1,8 +1,8 @@
 /*
-Esteban Camejo Ejercicio 1	"*/
+Esteban Camejo TP 1	"*/
 function mostrar()
 //alert("tomar cafe hace bien ");
-
+/*Esteban Camejo TP 1	"*/
 {
 	
 let nombre1;
