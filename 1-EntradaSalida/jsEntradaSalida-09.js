@@ -10,12 +10,18 @@ function mostrarAumento()
 	let numero1;
 	let numero2;
 	let resultado; 
-	
+	let aumento;
+	let calculoAumento;
+	let sueldoMasAumento;
 
+    aumento = 10;
+    numero1 = parseInt(document.getElementById("txtIdSueldo").value);
 
-	numero1 = parseInt(document.getElementById("txtIdSueldo").value);
-	numero2 = numero1 * 1.1;
+	calculoAumento = numero1/100*aumento;
+
+	sueldoMasAumento = numero1 + calculoAumento;
 	
+	numero2 = sueldoMasAumento;
 	//parseInt(document.getElementById("txtIdResultado").value);//
 	
 	resultado =  numero2;

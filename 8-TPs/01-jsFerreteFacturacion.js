@@ -53,14 +53,21 @@ let precio2
 let precio3
 let preciofinal
 let mensaje
+let IVA
+let precioFinalMasIva
+
 
 precio1 =  parseInt(document.getElementById("txtIdPrecioUno").value);
 precio2 =  parseInt(document.getElementById("txtIdPrecioDos").value);
 precio3 =  parseInt(document.getElementById("txtIdPrecioTres").value);
 
-preciofinal = (precio1 + precio2 + precio3)*1.21;
+preciofinal = (precio1 + precio2 + precio3);
 
-mensaje = "Total precio final " + preciofinal;
+IVA = 21;
+
+precioFinalMasIva = preciofinal + (preciofinal * IVA / 100);
+
+mensaje = "Total precio final " + precioFinalMasIva;
 
 alert(mensaje);
 }
