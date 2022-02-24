@@ -37,8 +37,8 @@ function mostrar()
 
 	document.getElementById("txtIdSuma").value = acumulador;
 	document.getElementById("txtIdPromedio").value = promedio;
-*/
 
+/*
 
 let i = 0;
 let numero;
@@ -64,6 +64,7 @@ document.getElementById("txtIdPromedio").value = promedio ;
 
 
 
+*/
 
 
 
@@ -87,8 +88,7 @@ document.getElementById("txtIdPromedio").value = promedio ;
 
 
 
-
-/* TP SABADO 
+ TP SABADO 
 
 
 	let altura;
@@ -119,9 +119,6 @@ document.getElementById("txtIdPromedio").value = promedio ;
 		i++;
 
 	}
-
-
-
 
 
 */
