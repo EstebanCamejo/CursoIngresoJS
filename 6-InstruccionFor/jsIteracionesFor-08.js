@@ -16,21 +16,26 @@ function mostrar()
 		numero = (prompt(" Eso no es un numero. Por favor ingresar un numero"));
 	}
 
-	for (i=3 ; i < numero ; i++){
+	for (i=1 ; i <= numero ; i++){
 
 		if (numero %i == 0){
 			contadorDeDivisores++;
-			
-		}
+			if (contadorDeDivisores >= 3){
+
+
+				break;
+
+			}	
+		} 
 	}
 
-	if(contadorDeDivisores>2 || numero<=1){
+	if(contadorDeDivisores==2){
 
-		alert (numero + " No es un numero primo");
+		alert (numero + " Es un numero primo");
 
 	}
 	else {
-		alert (numero + " Es un numero primo");
+		alert (numero + " No es un numero primo");
 	}
 
 
